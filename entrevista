@@ -1,0 +1,21 @@
+
+mensiona las principales restriciones de una api REST
+
+ 1.- Arquitectura cliente servicor: 
+ 
+ El cliente se encarga de la interación del usuario y por otra parte el Servidor se encarga del   control de datos y están dévilmente acoplados.  
+ 
+ 2.- Sin estado: Las peticiones que recibe el servidor deben de ser independientes y deben de contener todo lo necesario para ser procesadas. 
+ 
+ 3-Cacheable: 
+ 
+ Se debe admitir un sistema de almacenamiento en caché y evitar conexiones entre el servidor y el cliente para un mismo recurso. 
+ 
+ 4.- Systema en capas: 
+ La implementación en el servidor puede estar dividida en capas lo cual hace más escalable el desarrollo. 
+ 
+ 5. Interfaz uniforme:  
+ ############
+ 
+ 
+
